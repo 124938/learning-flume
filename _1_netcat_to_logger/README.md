@@ -1,4 +1,5 @@
-## Problem Statement : Read data from netcat source and log it to standard output of running flume agent
+## Problem Statement 
+Read data from netcat source and log it to standard output of flume agent using memory channel
  
 ### Step-1: Login to Quick Start VM OR Gateway Node of hadoop cluster
 
@@ -10,7 +11,7 @@ Last login: Sun May  6 04:51:45 2018 from 192.168.211.1
 [cloudera@quickstart ~]$ 
 ~~~
 
-### Step-2: Create flume specific configuration file
+### Step-2: Develope flume specific configuration file
 
 * **Create directory**
 
@@ -24,7 +25,7 @@ Last login: Sun May  6 04:51:45 2018 from 192.168.211.1
 [cloudera@quickstart ~]$ cd flume_demo/
 ~~~
 
-* **Create flume configuration file responsible to read data from netcat port and send data to STDOUT of flume**
+* **Create flume configuration file**
 
 ~~~
 [cloudera@quickstart flume_demo]$ vi netcat_to_logger.conf
