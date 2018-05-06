@@ -70,7 +70,8 @@ total 4
 ~~~
 [cloudera@quickstart ~]$ flume-ng agent \
   -n a1 \
-  -f /home/cloudera/flume_demo/netcat_to_logger.conf
+  -f /home/cloudera/flume_demo/netcat_to_logger.conf \
+  -Dflume.root.logger=INFO,console
 
 Warning: No configuration directory set! Use --conf <dir> to override.
 Info: Including Hadoop libraries found via (/usr/bin/hadoop) for HDFS access
