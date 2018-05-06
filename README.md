@@ -18,12 +18,17 @@
 
 * **Multi Agent Flow** : In order to flow the data across multiple agents, the sink of the previous agent and source of the current agent needs to be avro type with the sink pointing to the hostname (or IP address) and port of the source.
 
+  
   ![Alt text](_images/_2_multi_agent_flow.png?raw=true "Multi Agent Flow")
+
 
 * **Consolidated Flow** : A very common scenario in log collection is a large number of log producing clients sending data to a few consumer agents that are attached to the storage subsystem. For example, logs collected from hundreds of web servers sent to a dozen of agents that write to HDFS cluster.
   
+  
   ![Alt text](_images/_3_consolidated_flow.png?raw=true "Consolidaed Flow")
+
 
 * **Multiplexing Flow** : Flume supports multiplexing the event flow to one or more destinations. This is achieved by defining a flow multiplexer that can replicate or selectively route an event to one or more channels.
 
+  
   ![Alt text](_images/_4_multiplexing_data_flow.png?raw=true "Multiplexing Data Flow")  
