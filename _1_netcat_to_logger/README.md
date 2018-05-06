@@ -15,7 +15,7 @@ Last login: Sun May  6 04:51:45 2018 from 192.168.211.1
 
 ### Step-2: Develope flume specific configuration file
 
-* **Create directory**
+* **Create directory (if not exists)**
 
 ~~~
 [cloudera@quickstart ~]$ mkdir flume_demo
@@ -105,7 +105,7 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 
 ### Step-4: Verify flume agent
 
-* **Send data using netcat**
+* **Send data using telnet from local machine**
 
 ~~~
 asus@asus-GL553VD:~$ telnet 192.168.211.142 44444
