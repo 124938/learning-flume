@@ -30,7 +30,7 @@ Last login: Sun May  6 04:51:45 2018 from 192.168.211.1
 * **Create flume configuration file**
 
 ~~~
-[cloudera@quickstart flume_demo]$ vi netcat_to_logger.conf
+[cloudera@quickstart flume_demo]$ vi netcat_memory_logger.conf
 ~~~
 
 ~~~
@@ -60,7 +60,7 @@ a1.sinks.stdout_sink.channel = mem_channel
 ~~~
 [cloudera@quickstart flume_demo]$ ls -ltr
 total 4
--rw-rw-r-- 1 cloudera cloudera 611 May  6 06:57 netcat_to_logger.conf
+-rw-rw-r-- 1 cloudera cloudera 611 May  6 06:57 netcat_memory_logger.conf
 ~~~
 
 ### Step-3: Start flume agent
@@ -70,7 +70,7 @@ total 4
 ~~~
 [cloudera@quickstart ~]$ flume-ng agent \
   -n a1 \
-  -f /home/cloudera/flume_demo/netcat_to_logger.conf \
+  -f /home/cloudera/flume_demo/netcat_memory_logger.conf \
   -Dflume.root.logger=INFO,console
 
 Warning: No configuration directory set! Use --conf <dir> to override.
@@ -83,7 +83,7 @@ SLF4J: Found binding in [jar:file:/usr/lib/zookeeper/lib/slf4j-log4j12-1.7.5.jar
 SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 18/05/06 07:00:13 INFO node.PollingPropertiesFileConfigurationProvider: Configuration provider starting
-18/05/06 07:00:13 INFO node.PollingPropertiesFileConfigurationProvider: Reloading configuration file:/home/cloudera/flume_demo/netcat_to_logger.conf
+18/05/06 07:00:13 INFO node.PollingPropertiesFileConfigurationProvider: Reloading configuration file:/home/cloudera/flume_demo/netcat_memory_logger.conf
 18/05/06 07:00:13 INFO conf.FlumeConfiguration: Added sinks: stdout_sink Agent: a1
 18/05/06 07:00:13 INFO conf.FlumeConfiguration: Processing:stdout_sink
 18/05/06 07:00:13 INFO conf.FlumeConfiguration: Processing:stdout_sink
