@@ -7,7 +7,6 @@
 
 * In Hadoop echo system, Apache Flume plays important role to ingest data from different sources to HDFS  
 
-
 ### Architecture
 * A Flume agent is a (JVM) process that hosts the components through which events flow from an external source to the next destination (hop). Flume agent consists of following components:
   * Source : It is reponsible to read data from external source and write it to channel
@@ -18,31 +17,31 @@
   ![Alt text](_images/_1_typical_data_flow.png?raw=true "Typical Data Flow Model")
 
 
-### Supported Components
-* Below are few known components provided by flume out of the boxes:
+### Components
+* Below are few known components provided by flume out of the box:
 
-  * **Flume Sources**
-    * Netcat Source
-    * Exec Source
-    * JMS Source
-    * Kafka Source
-    * HTTP Source
-    * Avro Source
-    * Thrift Source
+* **Flume Sources**
+  * Netcat Source
+  * Exec Source
+  * JMS Source
+  * Kafka Source
+  * HTTP Source
+  * Avro Source
+  * Thrift Source
 
-  * **Flume Channels**
-    * Memory Channel
-    * File Channel
-    * JDBC Channel
-    * Kafka Channel
+* **Flume Channels**
+  * Memory Channel
+  * File Channel
+  * JDBC Channel
+  * Kafka Channel
 
-  * **Flume Sinks**
-    * Logger Sink
-    * HDFS Sink
-    * Kafka Sink
-    * HTTP Sink
-    * Avro Sink
-    * Thrift Sink
+* **Flume Sinks**
+  * Logger Sink
+  * HDFS Sink
+  * Kafka Sink
+  * HTTP Sink
+  * Avro Sink
+  * Thrift Sink
 
 ### Data Flow Models
 
