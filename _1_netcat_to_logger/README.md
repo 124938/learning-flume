@@ -1,4 +1,4 @@
-## Verification
+## Problem Statement : Read data from netcat source and log it to standard output of running flume agent
  
 ### Step-1: Login to Quick Start VM OR Gateway Node of hadoop cluster
 
