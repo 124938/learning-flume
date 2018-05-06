@@ -9,16 +9,16 @@
    * Sink : It is responsible to read data from channel to write it to external target
 
 ### Architecture
-* Flume supports different types of data flow models:
+Flume supports different types of data flow models:
 
-(1) Typical Data Flow
+* **(1) Typical Data Flow**
   ![Alt text](_images/_1_typical_data_flow.png?raw=true "Typical Data Flow")  
 
-(2) Multi Agent Flow
+* **(2) Multi Agent Flow**
   ![Alt text](_images/_2_multi_agent_flow.png?raw=true "Multi Agent Flow")  
 
-(3) Consolidated Flow
+* **(3) Consolidated Flow**
   ![Alt text](_images/_3_consolidated_flow.png?raw=true "Consolidaed Flow")  
 
-(4) Multiplexing Flow
+* **(4) Multiplexing Flow**
   ![Alt text](_images/_4_multiplexing_data_flow.png?raw=true "Multiplexing Data Flow")  
