@@ -1,5 +1,7 @@
 ## Problem Statement 
-Read data from netcat source and log it to standard output of flume agent using memory channel
+* Read data from netcat source and log it to standard output of flume agent using memory channel
+
+## Solution
  
 ### Step-1: Login to Quick Start VM OR Gateway Node of hadoop cluster
 
