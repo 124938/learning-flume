@@ -1,5 +1,5 @@
 ## Problem Statement 
-* Read data from web log file and write it to HDFS location using memory channel
+* Read data from web log file and write it to HDFS location (in sequence file format) using memory channel
 
 ## Solution
  
