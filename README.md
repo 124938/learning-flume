@@ -1,48 +1,48 @@
 ## Introduction
 
 ### Overview
-Apache Flume is a distributed, reliable, and available system for efficiently collecting, aggregating and moving large amounts of log data from many different sources to a centralized data store
+* Apache Flume is a distributed, reliable, and available system for efficiently collecting, aggregating and moving large amounts of log data from many different sources to a centralized data store
 
-The use of Apache Flume is not only restricted to log data aggregation. Since data sources are customizable, Flume can be used to transport massive quantities of event data including but not limited to network traffic data, social-media-generated data, email messages and pretty much any data source possible
+* The use of Apache Flume is not only restricted to log data aggregation. Since data sources are customizable, Flume can be used to transport massive quantities of event data including but not limited to network traffic data, social-media-generated data, email messages and pretty much any data source possible
 
-In Hadoop echo system, Apache Flume plays important role to ingest data from different sources to HDFS  
+* In Hadoop echo system, Apache Flume plays important role to ingest data from different sources to HDFS  
 
 
 ### Architecture
-A Flume agent is a (JVM) process that hosts the components through which events flow from an external source to the next destination (hop). Flume agent consists of following components:
- * Source : It is reponsible to read data from external source and write it to channel
- * Channel : It is reponsible to hold data between source and sink
- * Sink : It is responsible to read data from channel tand o write it to external target
+* A Flume agent is a (JVM) process that hosts the components through which events flow from an external source to the next destination (hop). Flume agent consists of following components:
+  * Source : It is reponsible to read data from external source and write it to channel
+  * Channel : It is reponsible to hold data between source and sink
+  * Sink : It is responsible to read data from channel tand o write it to external target
 
    
- ![Alt text](_images/_1_typical_data_flow.png?raw=true "Typical Data Flow Model")
+  ![Alt text](_images/_1_typical_data_flow.png?raw=true "Typical Data Flow Model")
 
 
 ### Supported Components
-Below are few known components provided by flume out of the boxes:
+* Below are few known components provided by flume out of the boxes:
 
-**Flume Sources**
-  * Netcat Source
-  * Exec Source
-  * JMS Source
-  * Kafka Source
-  * HTTP Source
-  * Avro Source
-  * Thrift Source
+  * **Flume Sources**
+    * Netcat Source
+    * Exec Source
+    * JMS Source
+    * Kafka Source
+    * HTTP Source
+    * Avro Source
+    * Thrift Source
 
-**Flume Channels**
-  * Memory Channel
-  * File Channel
-  * JDBC Channel
-  * Kafka Channel
+  * **Flume Channels**
+    * Memory Channel
+    * File Channel
+    * JDBC Channel
+    * Kafka Channel
 
-**Flume Sinks**
-  * Logger Sink
-  * HDFS Sink
-  * Kafka Sink
-  * HTTP Sink
-  * Avro Sink
-  * Thrift Sink
+  * **Flume Sinks**
+    * Logger Sink
+    * HDFS Sink
+    * Kafka Sink
+    * HTTP Sink
+    * Avro Sink
+    * Thrift Sink
 
 ### Data Flow Models
 
