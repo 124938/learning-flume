@@ -113,8 +113,6 @@ total 4
 
 ### Step-4: Create HDFS directory
 
-* **Create HDFS directory**
-
 ~~~
 [cloudera@quickstart ~]$ hadoop fs -mkdir /user/cloudera/flume_demo
 ~~~
@@ -128,8 +126,6 @@ total 4
 ~~~
 
 ### Step-6: Start flume agent
-
-* **Start flume agent**
 
 ~~~
 [cloudera@quickstart ~]$ flume-ng agent \

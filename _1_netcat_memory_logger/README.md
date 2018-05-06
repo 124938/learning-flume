@@ -65,8 +65,6 @@ total 4
 
 ### Step-3: Start flume agent
 
-* **Start flume agent**
-
 ~~~
 [cloudera@quickstart ~]$ flume-ng agent \
   -n a1 \
