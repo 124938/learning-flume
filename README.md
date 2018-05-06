@@ -69,7 +69,7 @@
 
 * Cloudera QuickStart VM should be up & running (Click [here](https://github.com/124938/learning-hadoop-vendors/tree/master/cloudera/_1_quickstart_vm/README.md) to know more details on it) OR 
 
-* Any other hadoop cluster with flume should be available
+* Any other hadoop cluster should be available with flume configured inside
 
 ## Verification
  
