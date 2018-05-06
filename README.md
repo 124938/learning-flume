@@ -18,7 +18,7 @@
 
 
 ### Components
-* Below are few known components provided by flume out of the box:
+Below are few known components provided by flume out of the box:
 
 * **Flume Sources**
   * Netcat Source
