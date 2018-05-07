@@ -20,32 +20,30 @@
 
 ### Components
 
-* Below are few useful components provided by flume out of the box:
+Below are few useful components provided by flume out of the box & documentation is available [here](https://flume.apache.org/FlumeUserGuide.html)
   
-  * **Flume Sources**
-    * Netcat Source
-    * Exec Source
-    * JMS Source
-    * Kafka Source
-    * HTTP Source
-    * Avro Source
-    * Thrift Source
+* **Flume Sources**
+  * Netcat Source
+  * Exec Source
+  * JMS Source
+  * Kafka Source
+  * HTTP Source
+  * Avro Source
+  * Thrift Source
 
-  * **Flume Channels**
-    * Memory Channel
-    * File Channel
-    * JDBC Channel
-    * Kafka Channel
+* **Flume Channels**
+  * Memory Channel
+  * File Channel
+  * JDBC Channel
+  * Kafka Channel
 
-  * **Flume Sinks**
-    * Logger Sink
-    * HDFS Sink
-    * Kafka Sink
-    * HTTP Sink
-    * Avro Sink
-    * Thrift Sink
-
-* Apache Flume documentation is available [here](https://flume.apache.org/FlumeUserGuide.html)    
+* **Flume Sinks**
+  * Logger Sink
+  * HDFS Sink
+  * Kafka Sink
+  * HTTP Sink
+  * Avro Sink
+  * Thrift Sink
 
 ### Data Flow Models
 
