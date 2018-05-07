@@ -45,7 +45,7 @@
     * Avro Sink
     * Thrift Sink
 
-* Flume documentation is available at https://flume.apache.org/FlumeUserGuide.html    
+* Apache Flume documentation is available [here](https://flume.apache.org/FlumeUserGuide.html)    
 
 ### Data Flow Models
 
