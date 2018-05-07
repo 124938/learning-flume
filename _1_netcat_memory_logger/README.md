@@ -3,7 +3,7 @@
 
 ## Solution
  
-### Step-1: Login to Quick Start VM OR Gateway Node of hadoop cluster
+### Step-0: Login to Quick Start VM OR Gateway Node of hadoop cluster
 
 ~~~
 asus@asus-GL553VD:~$ ssh cloudera@192.168.211.142
@@ -13,7 +13,7 @@ Last login: Sun May  6 04:51:45 2018 from 192.168.211.1
 [cloudera@quickstart ~]$ 
 ~~~
 
-### Step-2: Develope flume specific configuration file
+### Step-1: Develope flume specific configuration file
 
 * **Create directory (if not exists)**
 
@@ -63,7 +63,7 @@ total 4
 -rw-rw-r-- 1 cloudera cloudera 611 May  6 06:57 netcat_memory_logger.conf
 ~~~
 
-### Step-3: Start flume agent
+### Step-2: Start flume agent
 
 ~~~
 [cloudera@quickstart ~]$ flume-ng agent \
@@ -102,7 +102,7 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 18/05/06 07:00:13 INFO source.NetcatSource: Created serverSocket:sun.nio.ch.ServerSocketChannelImpl[/127.0.0.1:44444]
 ~~~
 
-### Step-4: Verify flume agent
+### Step-3: Verify flume agent
 
 * **Send data using telnet from local machine**
 
