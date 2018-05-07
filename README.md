@@ -45,6 +45,8 @@
     * Avro Sink
     * Thrift Sink
 
+* Flume documentation is available at https://flume.apache.org/FlumeUserGuide.html    
+
 ### Data Flow Models
 
 * **Multi Agent Flow** : In order to flow the data across multiple agents, the sink of the previous agent and source of the current agent needs to be avro type with the sink pointing to the hostname (or IP address) and port of the source.
