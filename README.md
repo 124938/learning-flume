@@ -73,7 +73,7 @@ Below are few useful components provided by flume out of the box & documentation
 
 ## Verification
  
-### Step-1: Login to Quick Start VM OR Gateway Node of hadoop cluster
+### Step-0: Login to Quick Start VM OR Gateway Node of hadoop cluster
 
 ~~~
 asus@asus-GL553VD:~$ ssh cloudera@192.168.211.142
@@ -83,7 +83,7 @@ Last login: Sun May  6 04:51:45 2018 from 192.168.211.1
 [cloudera@quickstart ~]$ 
 ~~~
 
-### Step-2: Verification of flume binaries
+### Step-1: Verification of flume binaries
 
 ~~~
 [cloudera@quickstart ~]$ cd /usr/lib/flume-ng/bin/
@@ -92,7 +92,7 @@ total 16
 -rwxr-xr-x 1 root root 12628 Jun 29  2017 flume-ng
 ~~~
 
-### Step-3: Verification of flume configurations
+### Step-2: Verification of flume configurations
 
 ~~~
 [cloudera@quickstart bin]$ cd /etc/flume-ng/conf
@@ -105,7 +105,7 @@ total 16
 -rw-r--r-- 1 root root    0 Jun 29  2017 flume.conf
 ~~~
 
-### Step-4: Verification of flume command
+### Step-3: Verification of flume command
 
 ~~~
 [cloudera@quickstart conf]$ flume-ng help
